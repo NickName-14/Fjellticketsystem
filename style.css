@@ -1,0 +1,180 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.meny {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+.menyknapp {
+    width: 200px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: lightgreen;
+}
+
+.menyaktiv {
+    width: 200px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: green;
+
+}
+
+.velkommen {
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#ticketpw {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightgreen;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; 
+    min-height: 100px; 
+  }  
+  
+  .TicketPW {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .TicketPW td, .TicketPW th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .TicketPW tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .TicketPW tr:hover {
+    background-color: #ddd;
+  }
+  
+  .TicketPW th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+.ticket-info-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ticket-info-table th, .ticket-info-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .ticket-info-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .ticket-info-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+
+  .ticket-messages-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .ticket-messages-table th, .ticket-messages-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .ticket-messages-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .ticket-messages-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+  }
+#Meling {
+    width: 74%;
+}
+#Avsender {
+    width: 24%;
+}
+  
+.ticketlink {
+    text-decoration: none;
+    color: black;
+}
+
+.meldingtekst {
+    margin-top: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
